@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+  background: rgb(0, 128, 128);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 128, 128, 1) 0%,
+    rgba(153, 213, 213, 1) 100%
+  );
+  color: gainsboro;
+  font-family: 'Oswald', monospace;
+}
+
+h1 {
+  color: gold;
+  text-align: center;
+}
+
+h4 span {
+  color: violet;
+}
+
+h4 a {
+  color: gainsboro;
+  text-decoration: none;
+  transition: all 0.1s ease-in;
+}
+
+h4 a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+a {
+  color: goldenrod;
+  text-decoration: none;
+  transition: all 0.1s ease-in;
+}
+
+a:hover {
+  color: gold;
+  text-decoration: underline;
+}
