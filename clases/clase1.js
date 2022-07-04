@@ -13,38 +13,41 @@
 // Fernanda se acuerda de las etiquetas de HTML h1, p
 // Fernanda no se acuerda de las etiquetas h2, h5, div, section, article
 
-// Todo lo definido con "let" puede variar.
-let definicionNicoG="HTML es un lenguaje de programación";
+// Lo definido con "let" puede variar.
+// let definicionNicoG="HTML es un lenguaje de programación";
 
-// Todo lo definido con "const" no va a variar (OJO! si es un objeto igual lo defino con cost y ahi SI puede variar)
-const andreaLeGustaElChocolate=true;
+// Lo definido con "const" no va a variar (OJO! si es un objeto igual lo defino con cost y ahi SI puede variar)
+// const andreaLeGustaElChocolate=true;
 
-// Todo lo definido con "var" puede variar, entonces, cual es la diferencia con let? Que con var los valores existen durante toda la vida de la aplicacion, con let puedo achicar el ambito de accion. 
-var edadDeJonas = 21;
+// Lo definido con "var" puede variar, entonces, cual es la diferencia con let? Que con var los valores existen durante toda la vida de la aplicacion, con let puedo achicar el ambito de accion. 
+// var edadDeJonas = 21;
 
 // Siempre debo usar camelCase para los nombres de las variables, las constantes se definen con mayusculas.
 
 // String
-let texto="Esto es una variable string";
-let etiqueta1="p"
-let etiqueta2="h1"
+// let texto="Esto es una variable string";
+// let etiqueta1="p"
+// let etiqueta2="h1"
 
 
 // Number
-let edad=5;
+// let edad=5;
+
 
 // Boolean
-let verdaderoOFalso=true;
+// let verdaderoOFalso=true;
+
 
 // Array o arreglos o listas
-const lista =["h1", "p"]
+// const lista =["h1", "p"]
+
 
 // Object
-const manzana ={
-	"color":"rojo",
-	"forma":"redonda",
-	"sabor": "manzana"
-}
+// const manzana ={
+// 	"color":"rojo",
+// 	"forma":"redonda",
+// 	"sabor": "manzana"
+// }
 
 
 // 1) Defina una variable sin asignarle ningún valor.
