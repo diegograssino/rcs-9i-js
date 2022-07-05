@@ -52,21 +52,82 @@
 
 // 1) Defina una variable sin asignarle ningún valor.
 
+// let valor;
+// console.log(valor);
+
 // A la variable del enunciado anterior, asignele el valor "cinco".
+// valor = "cinco";
+
+// Diferencia entre "cinco", "5" y 5 (los tipos/ valores son diferentes)
+// let prueba1 = valor + 1;
+// console.log(prueba1);
+
+// let concatenacion = valor + " " + "es el valor";
+// console.log(concatenacion);
 
 // Muestre por consola la variable de los enunciados anteriores.
+// console.log(valor);
 
 // 2) Defina dos variables y asigne un valor del tipo number a elección a cada una.
 
+// let var1 = 3;
+// console.log("var1 original: "+var1)
+// let var2 = 5;
+// console.log("var2 original: "+var2)
+// var2++;
+// console.log("Valor de var2 despues del ++: "+var2)
+
+// let var3 = var1 + var2;
+// console.log("var1 + var2: "+var3)
+
+// console.log("var3 despues del ++: " + var3)
+
+// var2++ es igual var2 = var2 +1
+// var2++;
+
+// Sume de uno en uno una variable incrementadola en 5
+
+// let numero = 1;
+// let numero2 = 10;
+
+// console.log(`Texto con backticks ${numero + numero2}`)
+// console.log("Texto con comillas dobles (o simples) y concatenacion " + numero)
+
+// Para incrementar de a uno una variable del tipo number puedo utilizar el ++ (y para decrementarla el --)
+
+// let numero = 1;
+// console.log("Valor original: "+ numero)
+
+// Incremento numero en 1
+// numero++
+// numero = numero + 1;
+// console.log("Valor despues de un ++: "+ numero)
+
+
 // Sume las variables del enunciado anterior y asigne el resultado a una tercera variable.
+// let var3 = var1 + var2;
 
 // Muestre por consola el resultado.
+// console.log(var3)
 
 // 3) Defina una constante y una variable con valores de tipo number a elección.
 
+// const CONSTANTE = 1;
+// console.log("CONSTANTE:" + CONSTANTE);
+
+// let variable = 10;
+// console.log("variable:" + variable);
+
 // Sume el valor de la constante incrementado en 1 con el de la variable
 
+// CONSTANTE = CONSTANTE + 1;
+// let resultado = (CONSTANTE + 1) + variable
+// console.log("Resultado 1 " + resultado);
+
 // Ahora multiplique el valor de la variable por 10, y luego, sume nuevamente el valor de la constante con el de la variable.
+
+// resultado = (variable*10) + CONSTANTE
+// console.log(`Resultado 2 ${resultado}`);
 
 // Finalmente, asigne cada uno de los resultados de las operaciones y muestrelos por consola.
 
