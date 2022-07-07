@@ -1,4 +1,133 @@
-// 2)
+// 1)
+// Una en uno solo los strings "La vida es" y "bella", muestre el resultado por consola y con un alert.
+
+// let string1 = "End of passion play, crumbling away";
+// let string2 = "I'm your source of self-destruction"
+// let string3 = "Veins that pump with fear";
+
+// let string123 = string1 + " " + string2 + " " + string3;
+// console.log(string123)
+
+// console.log(string1+ " " +string2+ " " + string3)
+
+// console.log("End of passion play, crumbling away" + " " +"I'm your source of self-destruction"+ " "+ "Veins that pump with fear")
+
+// Ahora utilice template literals para hacer lo mismo.
+
+// let string1 = "End of passion play, crumbling away";
+// let string2 = "I'm your source of self-destruction"
+// let string3 = "Veins that pump with fear";
+
+// let string123= `${string1} ${string2} ${string3}`
+// console.log(string123)
+
+
+// Lleve una cadena de caracteres en minuscula a mayusculas.
+
+// let minusculas = "metallica";
+// let mayusculas = minusculas.toUpperCase();
+// toUpperCase DEVUELVE un nuevo string, NO MODIFICA la variable.
+
+// Las tres maneras generan el mismo resultado
+// console.log(mayusculas);
+// console.log(minusculas.toUpperCase());
+// console.log("metallica".toUpperCase());
+
+// Lleve una cadena de caracteres en mayúscula a minúsculas.
+
+// let mayusculas = "METALLICA";
+// console.log(mayusculas.toLowerCase())
+
+// Indique el largo de una cadena de caracteres ingresada con prompt y muestre el resultado con un alert.
+
+// Sin prompt y alert
+// let string1 = "End of passion play, crumbling away";
+// console.log(string1.length)
+
+// Con prompt y alert
+// alert("Ganaste un Iphone!")
+
+// let string2 = prompt("Ingrese una palabra:")
+// console.log(string2)
+// alert(string2.length)
+
+// let inputNombre = ""
+// let inputApellido= "Perez"
+// let inputEmail = ""
+
+// let llenoAlgunCampo = (inputNombre.length>0) || (inputApellido.length>0) || (inputEmail.length>0)
+
+// let llenoTodosLosCampos = (inputNombre.length>0) && (inputApellido.length>0) && (inputEmail.length>0)
+
+// console.log(llenoTodosLosCampos)
+
+// Si LlenoTodosLosCampos = true, entonces que ingrese a la aplicacion, sino, si LlenoAlgunCampo = true mostrar error con lo que falta, y sino, Mostrar error que falta todo.
+
+
+
+// Extraiga el 5to caractér del string "SILENCIOSOS"
+// let nombre = prompt ("Ingrese un nombre: ")
+
+// let caracterAExtraer = prompt("Que caracter de SILENCIOSOS desea extraer?")
+// alert("La inicial del nombre es " + nombre.charAt(0))
+
+
+// Del mismo string, extraiga las últimas dos letras.
+
+// 3)
+// Truncar un número no entero.
+// let numero = 5.12;
+// console.log(Math.floor(numero))
+
+// Redondear al más cercano un número no entero
+// let numeroRedondeado = Math.round(numero)
+// console.log(numeroRedondeado)
+
+// Devuelva el máximo valor de 5 variables (1, 5, 100, 2, 10)
+// let var1 = prompt("Ingrese un número")
+// let var2 = prompt("Ingrese un número")
+// let var3 = prompt("Ingrese un número")
+// let var4 = prompt("Ingrese un número")
+// let var5 = prompt("Ingrese un número")
+
+// let varMax = Math.max(var1, var2, var3, var4, var5)
+// let varMin = Math.min(var1, var2, var3, var4, var5)
+
+// let varMaxNumeros = Math.max(1, 5, 1000, 2, 10)
+
+
+// alert("El mayor es: " + varMax)
+// alert("El menor es: " + varMin)
+
+// console.log(varMaxNumeros)
+
+
+// Con las mismas variables, devuelva el mínimo
+
+// TAREA
+// Ahora calcule la raiz cuadrada de 12
+
+// TAREA
+// Calcule el resultado de 8 elevado a la 10ma potencia
+
+// Sume el número 10 con uno generado aleatoriamente
+
+// let numeroAleatorio =  Math.random()
+// console.log(numeroAleatorio)
+
+// let max = prompt("Ingrese el numero aleatorio maximo: ")
+
+// let numeroAleatorioCustom = Math.floor(Math.random() * max)
+
+// console.log("El número aleatorio del 1 al " + max + " es: " + numeroAleatorioCustom)
+
+
+// A ese número redondearlo a dos decimales
+
+// 
+
+
+// 4)
 // Dado un número, indicar si ese número es mayor a 10.
 
 // let numero = prompt("Ingrese su número");
@@ -26,7 +155,7 @@
 // let valor = prompt("Ingrese un valor:");
 
 
-// 3)
+// 5)
 
 // Dado un número, indicar si ese número es mayor o menor o igual 
 // a 10.
@@ -44,7 +173,7 @@
 
 // TAREA!
 
-// 4)
+// 6)
 
 // Dados dos números, indicar cual es mayor o si son iguales.
 
@@ -71,7 +200,7 @@
 // Solicitar un numero de día y mostrar el nombre del día
 
 
-// 5)
+// 7)
 
 // b) Si el diámetro es superior a 1.4 con un grosor inferior a 0.4,
 // ó si el diámetro es menor o igual a 1.4 pero mayor que 0.8, con un
@@ -79,7 +208,7 @@
 // esta rueda es inferior al recomendado”
 
 
-// 6)
+// 8)
 
 // Hacer ahora con Switch:
 // Pedir las tres notas de un alumno y calcular su promedio, si es mayor
@@ -94,8 +223,6 @@
 // Hacer ahora con Switch:
 // Solicitar un numero de día y mostrar el nombre del día
 
-// TAREA
-
 // Escribe un programa que responda a un usuario que quiere comprar
 // un helado en una conocida marca de comida rápida cuanto le costará
 // en función del topping que elija. Si no hay concidencias debe
@@ -105,9 +232,5 @@
 // El topping de KitKat cuesta $175.
 // El topping de brownie cuesta $175.
 
-// TAREA
-
 // Solicitar al usuario un modelo de auto que desea comprar e
 // informarle cuánto cuesta. Si no hay concidencias debe informarlo.
-
-// TAREA
