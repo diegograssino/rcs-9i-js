@@ -1,10 +1,44 @@
-// CONDICIONALES: Condiciones compuestas (&&, ||, !)
+// WHILE
 
+// let i = 9999;
+// while (i < 10000) {
+//   console.log('Hola mundo');
+//   i++;
+// }
+
+// DO WHILE <--- Siempre se ejecuta al menos una vez
+
+// let i = 10000;
+// do {
+//   console.log('Hola mundo');
+//   i++;
+// } while (i < 10000);
+
+// TAREA (condicionales compuestas &&, ||, !)
 // Escriba un algoritmo que pueda evaluar si un número esta dentro del rango de 5 a 10.
 
-// Simule un estado de logueo con usuario y contraseña y, solo si no esta logueado, muestre un mensaje de error.
+// Simule un estado de logueo con usuario y contraseña y, solo si no esta logueado, muestre un mensaje de error repetitivo.
 
-// Simule un ingreso de un numero de telefono en un formulario y valide si el dato es correcto por la cantidad de digitos.
+// let user = '';
+// let pass = '';
+
+// let userOk = 'rolling';
+// let passOk = '1234';
+
+// do {
+//   user = prompt(
+//     'Ingrese su usuario: '
+//   ).toLowerCase();
+//   pass = prompt('Ingrese su contraseña: ');
+//   if (user === userOk && pass === passOk) {
+//     alert('Autenticado!');
+//   } else {
+//     alert('Usuario o contraseña erroneos.');
+//   }
+// } while (user !== userOk || pass !== passOk);
+
+// TAREA
+// Simule un ingreso de un numero de telefono en un prompt y valide si el dato es correcto por la cantidad de digitos y repita el ingreso las veces que sea necesario.
 
 // 2)
 
