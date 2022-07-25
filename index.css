@@ -31,6 +31,25 @@ h4 a:hover {
   text-decoration: underline;
 }
 
+h5 {
+  font-size: 1em;
+}
+
+h5 span {
+  color: gold;
+}
+
+h5 a {
+  color: gainsboro;
+  text-decoration: none;
+  transition: all 0.1s ease-in;
+}
+
+h5 a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 a {
   color: goldenrod;
   text-decoration: none;
