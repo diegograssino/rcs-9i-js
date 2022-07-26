@@ -44,7 +44,23 @@
 
 // (AHORA CON FOR) Escribe un algoritmo que muestre los numeros del 1 al 10.
 
+// for (let index = 1; index <= 10; index++) {
+//   // Bloque de código
+//   console.log(index);
+// }
+
+// Explicando el paso de for (sale mal)
+// for (let i = 0; i < 22; i++) {
+//   // Bloque de código
+//   i++;
+//   console.log(i);
+// }
+
 // (AHORA CON FOR) Escribe un algoritmo que muestre los numeros del 1 al 10 de mayor a menor.
+
+// for (let i = 10; i > 0; i--) {
+//   console.log(i);
+// }
 
 // (AHORA CON FOR) Escribe un algoritmo que muestre si cada uno de los numeros del 1 al 10 son múltiplos de 2.
 
