@@ -154,4 +154,50 @@
 
 // FOREACH: Recorre un array <-- NI MUTA, NI RETORNAR NUEVO ARRAY O VALORES
 
+const autos = [
+  {
+    color: 'azul',
+    marca: 'ford',
+    modelo: 'focus',
+    año: 2012,
+    potencia: '100bhp',
+    service: [4899, 10024, 15568],
+  },
+  {
+    color: 'verde',
+    marca: 'fiat',
+    modelo: 'bravo',
+    año: 2008,
+    potencia: '130bhp',
+    service: [4899, 10024, 15568],
+  },
+  {
+    color: 'verde',
+    marca: 'fiat',
+    modelo: 'bravo',
+    año: 2008,
+    potencia: '130bhp',
+    service: [4899, 10024, 15568],
+  },
+];
+
+const elementos = ['ford', 'fiat'];
+
+for (let i = 0; i < autos.length; i++) {
+  const element = autos[i];
+  console.log(element);
+}
+
+// arrayDeAutos2.forEach(i => {
+//   console.log(i);
+// });
+
+autos.forEach(auto => console.log(auto));
+
 // MAP: Recorre un array y devuelve los que cumplean una condición <-- RETORNA NUEVO ARRAY
+
+// const autosFiat = autos.map(
+//   auto => auto.marca === 'fiat'
+// );
+
+// console.log(autosFiat);
